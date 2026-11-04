@@ -1,0 +1,46 @@
+{
+  "evaluation_type": "fresh synthetic dataset",
+  "test_samples": 2000,
+  "accuracy": 1.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "f1_score": 1.0,
+  "confusion_matrix": [
+    [
+      1200,
+      0
+    ],
+    [
+      0,
+      800
+    ]
+  ],
+  "classification_report": {
+    "Normal": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 1200.0
+    },
+    "Anomaly": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 800.0
+    },
+    "accuracy": 1.0,
+    "macro avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 2000.0
+    },
+    "weighted avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 2000.0
+    }
+  },
+  "important_note": "This is a fresh synthetic dataset, not real network data. The generator uses the same fixed random seed each time, so this checks a newly generated dataset but is not an independent random-seed evaluation."
+}

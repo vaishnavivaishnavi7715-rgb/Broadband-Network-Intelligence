@@ -1,0 +1,40 @@
+{
+  "dataset": "broadband_candidate_telemetry.csv",
+  "dataset_rows": 10000,
+  "data_notice": "Synthetic candidate data; results do not establish real-world broadband performance.",
+  "random_forest": {
+    "method": "Existing active Random Forest",
+    "accuracy": 0.9451,
+    "precision": 0.9246,
+    "recall": 0.918,
+    "f1_score": 0.9213,
+    "confusion_matrix": [
+      [
+        6238,
+        262
+      ],
+      [
+        287,
+        3213
+      ]
+    ],
+    "roc_auc": 0.9824
+  },
+  "rule_based": {
+    "method": "Illustrative rule-based baseline",
+    "accuracy": 0.9193,
+    "precision": 0.9554,
+    "recall": 0.8071,
+    "f1_score": 0.875,
+    "confusion_matrix": [
+      [
+        6368,
+        132
+      ],
+      [
+        675,
+        2825
+      ]
+    ]
+  }
+}

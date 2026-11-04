@@ -1,0 +1,13 @@
+model,feature,importance
+Anomaly Detection,latency_ms,0.33917288233814924
+Anomaly Detection,download_mbps,0.1801420977798421
+Anomaly Detection,packet_loss_pct,0.15847306022669252
+Anomaly Detection,upload_mbps,0.14615508482100087
+Anomaly Detection,connection_drops,0.14452492231045388
+Anomaly Detection,signal_strength_dbm,0.03153195252386119
+Issue Classification,latency_ms,0.22892875422916362
+Issue Classification,connection_drops,0.19836565223499358
+Issue Classification,signal_strength_dbm,0.17473485724533414
+Issue Classification,packet_loss_pct,0.16774031451612306
+Issue Classification,download_mbps,0.12141240128329354
+Issue Classification,upload_mbps,0.10881802049109192

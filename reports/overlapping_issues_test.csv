@@ -1,0 +1,8 @@
+scenario,latency_ms,download_mbps,upload_mbps,packet_loss_pct,signal_strength_dbm,connection_drops,expected_anomaly,predicted_anomaly,anomaly_probability_pct,prediction_correct_vs_expectation
+Healthy connection,25,250,40,0.1,-50,0,0,0,0.84,True
+Weak signal + high latency,180,35,8,1.5,-92,2,1,1,98.0,True
+Packet loss + connection drops,90,60,12,8.0,-65,8,1,1,99.0,True
+Low bandwidth + high latency,240,12,3,1.0,-60,1,1,1,100.0,True
+Multiple simultaneous issues,350,8,2,12.0,-95,12,1,1,100.0,True
+Moderate degradation,65,120,25,1.0,-72,1,0,1,66.0,False
+Weak signal + packet loss,110,45,10,5.0,-90,5,1,1,100.0,True

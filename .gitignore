@@ -1,0 +1,41 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*.pyd
+.pytest_cache/
+.coverage
+htmlcov/
+# Virtual environments
+.venv/
+venv/
+env/
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+# Local databases and generated runtime files
+data/*.db
+data/*.sqlite
+data/*.sqlite3
+# Editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+# Temporary files and logs
+*.log
+*.tmp
+# Keep backup copies out of the published repository
+backup_before_stress_test/
+
+# Local README backup
+README_before_github.md
+# Old source-code backups
+src/api/main_before_*.py
+src/dashboard/app_backup_*.py
+src/dashboard/app_before_*.py
+# Unused candidate and backup model files
+models/broadband_anomaly_candidate.joblib
+models/broadband_anomaly_candidate_v2.joblib
+models/broadband_anomaly_model_before_candidate.joblib

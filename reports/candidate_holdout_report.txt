@@ -1,0 +1,33 @@
+{
+  "evaluation_type": "Fresh model, stratified 80/20 holdout",
+  "dataset": "broadband_candidate_telemetry.csv",
+  "total_rows": 10000,
+  "training_rows": 8000,
+  "test_rows": 2000,
+  "accuracy": 0.9635,
+  "precision": 0.9324137931034483,
+  "recall": 0.9657142857142857,
+  "f1_score": 0.9487719298245614,
+  "roc_auc": 0.9972901098901099,
+  "confusion_matrix": [
+    [
+      1251,
+      49
+    ],
+    [
+      24,
+      676
+    ]
+  ],
+  "warning": "Synthetic data. Holdout reliability assumes independent records and no duplicate or related records across the split."
+}
+
+Classification report:
+              precision    recall  f1-score   support
+
+      Normal       0.98      0.96      0.97      1300
+     Anomaly       0.93      0.97      0.95       700
+
+    accuracy                           0.96      2000
+   macro avg       0.96      0.96      0.96      2000
+weighted avg       0.96      0.96      0.96      2000

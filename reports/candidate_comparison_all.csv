@@ -1,0 +1,8 @@
+scenario,Original anomaly %,Candidate V1 anomaly %,Candidate V2 anomaly %
+Healthy,0.0,0.21,0.69
+Slightly elevated latency,64.0,69.26,81.71
+Moderate packet loss,87.0,93.29,97.04
+"Weak signal, good speed",13.0,15.8,68.4
+Severe weak signal,99.0,99.25,99.22
+Severe packet loss,99.0,99.45,100.0
+Severe high latency,98.0,98.39,97.55

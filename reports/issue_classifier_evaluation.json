@@ -1,0 +1,66 @@
+{
+  "dataset_rows": 5000,
+  "training_rows": 4000,
+  "test_rows": 1000,
+  "label_source": "Synthetic rule-based demonstration labels; not verified real-world diagnoses",
+  "accuracy": 0.994,
+  "classification_report": {
+    "high_latency": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 80.0
+    },
+    "low_bandwidth": {
+      "precision": 0.926829268292683,
+      "recall": 1.0,
+      "f1-score": 0.9620253164556962,
+      "support": 76.0
+    },
+    "normal": {
+      "precision": 1.0,
+      "recall": 0.9900662251655629,
+      "f1-score": 0.9950083194675541,
+      "support": 604.0
+    },
+    "packet_loss": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 80.0
+    },
+    "unstable_connection": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 80.0
+    },
+    "weak_signal": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 80.0
+    },
+    "accuracy": 0.994,
+    "macro avg": {
+      "precision": 0.9878048780487805,
+      "recall": 0.9983443708609272,
+      "f1-score": 0.9928389393205417,
+      "support": 1000.0
+    },
+    "weighted avg": {
+      "precision": 0.994439024390244,
+      "recall": 0.994,
+      "f1-score": 0.9940989490090355,
+      "support": 1000.0
+    }
+  },
+  "class_counts": {
+    "normal": 3020,
+    "weak_signal": 401,
+    "unstable_connection": 400,
+    "packet_loss": 400,
+    "high_latency": 400,
+    "low_bandwidth": 379
+  }
+}

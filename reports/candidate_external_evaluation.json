@@ -1,0 +1,33 @@
+{
+  "evaluation_type": "Existing active model on separate candidate synthetic dataset",
+  "dataset": "broadband_candidate_telemetry.csv",
+  "dataset_rows": 10000,
+  "features_used": [
+    "latency_ms",
+    "download_mbps",
+    "upload_mbps",
+    "packet_loss_pct",
+    "signal_strength_dbm",
+    "connection_drops"
+  ],
+  "actual_label_counts": {
+    "0": 6500,
+    "1": 3500
+  },
+  "accuracy": 0.9451,
+  "precision": 0.9246043165467626,
+  "recall": 0.918,
+  "f1_score": 0.9212903225806451,
+  "confusion_matrix": [
+    [
+      6238,
+      262
+    ],
+    [
+      287,
+      3213
+    ]
+  ],
+  "warning": "Candidate data is synthetic. Results do not establish performance on real broadband networks. Confirm dataset independence and label quality.",
+  "roc_auc": 0.9823549450549449
+}

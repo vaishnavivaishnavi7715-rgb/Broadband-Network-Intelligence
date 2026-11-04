@@ -1,0 +1,128 @@
+[
+  {
+    "model": "broadband_anomaly_candidate.joblib",
+    "rows_evaluated": 10000,
+    "accuracy": 0.9423,
+    "precision": 0.9134370579915134,
+    "recall": 0.9225714285714286,
+    "f1_score": 0.9179815209665956,
+    "confusion_matrix": {
+      "true_normal_predicted_normal": 6194,
+      "true_normal_predicted_anomaly": 306,
+      "true_anomaly_predicted_normal": 271,
+      "true_anomaly_predicted_anomaly": 3229
+    },
+    "classification_report": {
+      "normal": {
+        "precision": 0.9580819798917247,
+        "recall": 0.9529230769230769,
+        "f1-score": 0.9554955649826455,
+        "support": 6500.0
+      },
+      "anomaly": {
+        "precision": 0.9134370579915134,
+        "recall": 0.9225714285714286,
+        "f1-score": 0.9179815209665956,
+        "support": 3500.0
+      },
+      "accuracy": 0.9423,
+      "macro avg": {
+        "precision": 0.935759518941619,
+        "recall": 0.9377472527472528,
+        "f1-score": 0.9367385429746206,
+        "support": 10000.0
+      },
+      "weighted avg": {
+        "precision": 0.9424562572266506,
+        "recall": 0.9423,
+        "f1-score": 0.942365649577028,
+        "support": 10000.0
+      }
+    },
+    "roc_auc": 0.984527912087912
+  },
+  {
+    "model": "broadband_anomaly_candidate_v2.joblib",
+    "rows_evaluated": 10000,
+    "accuracy": 0.9868,
+    "precision": 0.970653996646171,
+    "recall": 0.9922857142857143,
+    "f1_score": 0.9813506640293869,
+    "confusion_matrix": {
+      "true_normal_predicted_normal": 6395,
+      "true_normal_predicted_anomaly": 105,
+      "true_anomaly_predicted_normal": 27,
+      "true_anomaly_predicted_anomaly": 3473
+    },
+    "classification_report": {
+      "normal": {
+        "precision": 0.9957957022734351,
+        "recall": 0.9838461538461538,
+        "f1-score": 0.9897848630242997,
+        "support": 6500.0
+      },
+      "anomaly": {
+        "precision": 0.970653996646171,
+        "recall": 0.9922857142857143,
+        "f1-score": 0.9813506640293869,
+        "support": 3500.0
+      },
+      "accuracy": 0.9868,
+      "macro avg": {
+        "precision": 0.983224849459803,
+        "recall": 0.9880659340659341,
+        "f1-score": 0.9855677635268433,
+        "support": 10000.0
+      },
+      "weighted avg": {
+        "precision": 0.9869961053038927,
+        "recall": 0.9868,
+        "f1-score": 0.9868328933760802,
+        "support": 10000.0
+      }
+    },
+    "roc_auc": 0.9995535384615385
+  },
+  {
+    "model": "broadband_anomaly_model.joblib",
+    "rows_evaluated": 10000,
+    "accuracy": 0.9451,
+    "precision": 0.9246043165467626,
+    "recall": 0.918,
+    "f1_score": 0.9212903225806451,
+    "confusion_matrix": {
+      "true_normal_predicted_normal": 6238,
+      "true_normal_predicted_anomaly": 262,
+      "true_anomaly_predicted_normal": 287,
+      "true_anomaly_predicted_anomaly": 3213
+    },
+    "classification_report": {
+      "normal": {
+        "precision": 0.9560153256704981,
+        "recall": 0.9596923076923077,
+        "f1-score": 0.9578502879078695,
+        "support": 6500.0
+      },
+      "anomaly": {
+        "precision": 0.9246043165467626,
+        "recall": 0.918,
+        "f1-score": 0.9212903225806451,
+        "support": 3500.0
+      },
+      "accuracy": 0.9451,
+      "macro avg": {
+        "precision": 0.9403098211086303,
+        "recall": 0.9388461538461539,
+        "f1-score": 0.9395703052442573,
+        "support": 10000.0
+      },
+      "weighted avg": {
+        "precision": 0.9450214724771908,
+        "recall": 0.9451,
+        "f1-score": 0.945054300043341,
+        "support": 10000.0
+      }
+    },
+    "roc_auc": 0.9823549450549449
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "evaluation_type": "Diagnostic holdout; independence from training data unverified",
+  "dataset": "C:\\Users\\Acer\\OneDrive\\Documents\\Broadband-Network-Intelligence\\data\\broadband_telemetry.csv",
+  "model": "C:\\Users\\Acer\\OneDrive\\Documents\\Broadband-Network-Intelligence\\models\\broadband_anomaly_model.joblib",
+  "rows_used": 5000,
+  "test_rows": 1000,
+  "accuracy": 1.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "f1_score": 1.0,
+  "confusion_matrix_labels": [
+    "normal_0",
+    "anomaly_1"
+  ],
+  "confusion_matrix": [
+    [
+      600,
+      0
+    ],
+    [
+      0,
+      400
+    ]
+  ],
+  "roc_auc": 1.0
+}
