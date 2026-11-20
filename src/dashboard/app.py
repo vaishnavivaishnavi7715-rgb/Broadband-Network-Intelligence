@@ -14,7 +14,7 @@ PROJECT_ROOT = Path(__file__).resolve().parents[2]
 DATA_PATH = PROJECT_ROOT / "data" / "broadband_telemetry.csv"
 HISTORY_DB = PROJECT_ROOT / "data" / "prediction_history.db"
 
-API_URL = os.getenv("API_URL", "http://127.0.0.1:8000").rstrip("/")
+API_URL = st.secrets.get("API_URL", os.getenv("API_URL", "http://127.0.0.1:8000")).rstrip("/")
 PREDICT_URL = f"{API_URL}/predict"
 
 st.set_page_config(
